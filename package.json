@@ -1,0 +1,18 @@
+{
+  "name": "qiankun-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel start:*",
+    "start:sub-vue": "cd sub-vue && npm run serve",
+    "start:sub-react": "cd sub-react && npm run start",
+    "start:main": "cd main && npm run serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
